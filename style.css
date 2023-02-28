@@ -1,0 +1,121 @@
+body {
+    background: url("background.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+p { /* Requirement-A */
+    font-size: 20px; /* Requirement-1 */
+    font-weight: bold;
+    color: blue; /* Requirement-3 */
+    text-indent: 50px; /* Requirement-2 */
+    background-color: yellow; /* Requirement-4 */
+  }
+
+.beginning { /* Requirement-C */
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+}
+
+h1, h6 { /* Requirement-B */
+    font-family:Verdana,sans-serif;
+}
+
+img {
+    border-style: dotted; /* Requirement-5 */
+    border-radius: 50%; /* Requirement-10 */
+    z-index: -1; /* Requirement-17 */
+  }
+
+#joke { /* Requirement-D */
+    background-color: green;
+    color: red;
+}
+
+a:hover { /* Requirement-D */
+    color: red;
+  }
+
+.extra riddle { /* Requirement-F */
+    background-color: red;
+    color: green;
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+}
+
+.more {
+    padding: 10px;
+    border: 3px solid red;
+    float: left;
+    background-color: rgb(89, 177, 236);
+    overflow: hidden; /* Requirement-14 */
+}
+
+.more2 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left; /* Requirement-13 */
+    background-color: rgb(231, 141, 212);
+    overflow: hidden;
+}
+
+details { /* Requirement-G */
+    width: 500px;
+    height: 100px; /* Requirement-7 */
+    margin: 50px 200px; /* Requirement-6 */
+}
+
+summary { /* Requirement-H */
+    background-color: pink;
+    color: green;
+}
+
+ul.aa { /* Requirement-8 */
+    background: #3399ff;
+    padding: 20px;
+    list-style-position: outside;
+}
+
+ul.bb {
+    background: orange;
+    padding: 20px;
+    list-style-position: inside;
+}
+
+.bye {
+    visibility: hidden; /* Requirement-16 */
+}
+
+div.relative { 
+    position: relative; /* Requirement-15 */
+    width: 400px; /* Requirement-9 */
+    height: 200px;
+    border: 3px solid #73AD21;
+    float: right; /* Requirement-11 */
+  }
+  
+  div.absolute { 
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #32124e;
+
+  }
+
+table tr th,
+table tr td {
+  color: rgb(221, 147, 8);
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+h1.hi { 
+    display: none; /* Requirement-12 */
+}
+
